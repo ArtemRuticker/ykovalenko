@@ -1,0 +1,11 @@
+
+CREATE TABLE public.Class1 (
+    Id SERIAL PRIMARY KEY,
+    col BIGINT
+);
+
+INSERT INTO public.Class1 (col) VALUES
+(1234567890),
+(9876543210),
+(1122334455),
+(5566778899);
